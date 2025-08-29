@@ -1,3 +1,4 @@
+#include "progress_bar.h"
 #include <iostream>
 #include <fstream>
 #include <chrono>
