@@ -1,16 +1,12 @@
-CXX = g++
+CXX = clang++
 CXXFLAGS = -std=c++17 -I include
 SRC = $(wildcard src/*.cpp)
-OBJ = $(SRC:.cpp=.o)
 TARGET = myprogram
 
 all: $(TARGET)
 
-$(TARGET): $(OBJ) main.o
-	$(CXX) $(CXXFLAGS) -o $@ $^
-
-main.o: main.cpp
-	$(CXX) $(CXXFLAGS) -c main.cpp
+$(TARGET): $(SRC)
+	$(CXX) $(CXXFLAGS) $^ -o $@
 
 clean:
-	rm -f $(OBJ) main.o $(TARGET)
+	rm -f $(TARGET)
