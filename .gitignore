@@ -1,0 +1,41 @@
+
+# Build artifacts
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.app
+
+# Build directories
+/build/
+bin/
+lib/
+
+# CMake and Make
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+compile_commands.json
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.user
+*.workspace
+*.project
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp

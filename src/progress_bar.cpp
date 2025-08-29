@@ -23,18 +23,3 @@ void print_progress_bar(double progress){
   std::cout << "] " << static_cast<int>(progress * 100) << "%\r";
   std::cout.flush();
 }
-
-
-int main(){
-  int num_files = 100;
-  //int batch_size = 5;
-  int mock_time_milli = 30;
-  for (int i = 0; i <= num_files; ++i){
-    print_progress_bar(static_cast<double>(i) / 100.0);
-    process_info(mock_time_milli);
-  }
-  std::cout << std::endl;
-  std::cout << "\nDone" << std::endl;
-  return 0;
-  
-}
