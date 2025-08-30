@@ -1,4 +1,3 @@
-
 # Build artifacts
 *.o
 *.obj
@@ -9,7 +8,7 @@
 *.exe
 *.out
 *.app
-
+VEdit
 # Build directories
 /build/
 bin/

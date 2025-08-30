@@ -1,7 +1,7 @@
 CXX = clang++
 CXXFLAGS = -std=c++17 -I include
 SRC = $(wildcard src/*.cpp)
-TARGET = myprogram
+TARGET = VEdit
 
 all: $(TARGET)
 
