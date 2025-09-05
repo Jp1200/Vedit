@@ -1,4 +1,4 @@
-#include "../include/progress_bar.h"
+#include "progress_bar.h"
 #include <chrono>
 #include <iostream>
 #include <string>

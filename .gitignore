@@ -13,7 +13,7 @@ VEdit
 /build/
 bin/
 lib/
-
+.clangd
 # CMake and Make
 CMakeCache.txt
 CMakeFiles/

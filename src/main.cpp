@@ -1,4 +1,4 @@
-#include "progress_bar.cpp"
+#include "progress_bar.h"
 #include <iostream>
 
 int main(int argc, char *argv[]) {
