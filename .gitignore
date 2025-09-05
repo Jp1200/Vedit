@@ -8,6 +8,7 @@
 *.exe
 *.out
 *.app
+.cache
 VEdit
 # Build directories
 /build/
